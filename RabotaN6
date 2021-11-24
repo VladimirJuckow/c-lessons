@@ -1,0 +1,1293 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    cout << "[-] Выбор дня и месяца" << endl;
+
+    cout << "[1] Январь" << endl;
+    cout << "[2] Февраль" << endl;
+    cout << "[3] Март" << endl;
+    cout << "[4] Апрель" << endl;
+    cout << "[5] Май" << endl;
+    cout << "[6] Июнь" << endl;
+    cout << "[7] Июль" << endl;
+    cout << "[8] Август" << endl;
+    cout << "[9] Сентябрь" << endl;
+    cout << "[10] Октябрь" << endl;
+    cout << "[11] Ноябрь" << endl;
+    cout << "[12] Декабрь" << endl;
+
+    cout << "[!] Выберите месяц << endl";
+    int NumberOfMonth;
+    cin >> NumberOfMonth;
+    switch (NumberOfMonth)
+    {
+    case 1:
+        cout << "[-] Выбран январь";
+        cout << "[-] Введите номер дня";
+        int dayNumber1;
+        cin >> dayNumber1;
+        switch (dayNumber1)
+        {
+        case 1:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber1 << " января";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 2:
+        cout << "[-] Выбран Февраль";
+        cout << "[-] Введите номер дня";
+        int dayNumber2;
+        cin >> dayNumber2;
+        switch (dayNumber2)
+        {
+        case 1:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber2 << " Февраль";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 3:
+        cout << "[-] Выбран Март";
+        cout << "[-] Введите номер дня";
+        int dayNumber3;
+        cin >> dayNumber3;
+        switch (dayNumber3)
+        {
+        case 1:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber3 << " Март";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 4:
+        cout << "[-] Выбран Апрель";
+        cout << "[-] Введите номер дня";
+        int dayNumber4;
+        cin >> dayNumber4;
+        switch (dayNumber4)
+        {
+        case 1:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber4 << " Апрель";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 5:
+        cout << "[-] Выбран Май";
+        cout << "[-] Введите номер дня";
+        int dayNumber5;
+        cin >> dayNumber5;
+        switch (dayNumber5)
+        {
+        case 1:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber5 << " Май";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 6:
+        cout << "[-] Выбран Июнь";
+        cout << "[-] Введите номер дня";
+        int dayNumber6;
+        cin >> dayNumber6;
+        switch (dayNumber6)
+        {
+        case 1:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber6 << " Июнь";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 7:
+        cout << "[-] Выбран Июль";
+        cout << "[-] Введите номер дня";
+        int dayNumber7;
+        cin >> dayNumber7;
+        switch (dayNumber7)
+        {
+        case 1:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber7 << " Июль";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 8:
+        cout << "[-] Выбран Август";
+        cout << "[-] Введите номер дня";
+        int dayNumber8;
+        cin >> dayNumber8;
+        switch (dayNumber8)
+        {
+        case 1:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber8 << " Август";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 9:
+        cout << "[-] Выбран Сентябрь";
+        cout << "[-] Введите номер дня";
+        int dayNumber9;
+        cin >> dayNumber9;
+        switch (dayNumber9)
+        {
+        case 1:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber9 << " Сентябрь";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 10:
+        cout << "[-] Выбран Октябрь";
+        cout << "[-] Введите номер дня";
+        int dayNumber10;
+        cin >> dayNumber10;
+        switch (dayNumber10)
+        {
+        case 1:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber10 << " Октябрь";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 11:
+        cout << "[-] Выбран Ноябрь";
+        cout << "[-] Введите номер дня";
+        int dayNumber11;
+        cin >> dayNumber11;
+        switch (dayNumber11)
+        {
+        case 1:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber11 << " Ноябрь";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        case 12:
+        cout << "[-] Выбран Декабрь";
+        cout << "[-] Введите номер дня";
+        int dayNumber12;
+        cin >> dayNumber12;
+        switch (dayNumber12)
+        {
+        case 1:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 2:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 3:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 4:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 5:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 6:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 7:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 8:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 9:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 10:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 11:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 12:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 13:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 14:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 15:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 16:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 17:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 18:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 19:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 20:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 21:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 22:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 23:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 24:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 25:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 26:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 27:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 28:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 29:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 30:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        case 31:
+            cout << "[-] " << dayNumber12 << " Декабрь";
+            break;
+        default:
+            cout << "[-] В январе только 31 день";
+            break;
+        }
+        break;
+        default:
+        cout << "[-] Такого месяца нет";
+        break;
+    }
+
+    return 0;
+}
