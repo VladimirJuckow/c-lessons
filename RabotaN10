@@ -1,0 +1,117 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+    setlocale(0, "");
+
+    cout << "[?] Выберите 1 из предложенных программ:" << endl;
+    cout << "[1] Линия" << endl;
+    cout << "[2] Квадрат" << endl;
+    cout << "[?] Ваша цифра: ";
+
+    short numberprogramm;
+    cin >> numberprogramm;
+
+    if (numberprogramm == 1) {
+        system("cls");
+
+        cout << "                   Фигура \"Линия\":" << endl;
+
+        cout << "Выберите линию(1 - Горизонтальная,2 - Вертикальная): ";
+        int line;
+        cin >> line;
+
+        if (line == 1) {
+
+            cout << endl << "Выберите символ, из чего будет линия: ";
+            string simvol;
+            cin >> simvol;
+
+            cout << endl << "Выберите размер линии(желательно <= 10): ";
+            int size;
+            cin >> size;
+
+            int i1 = 1;
+            int i2 = 1;
+            int i3 = 1;
+            while (i1 <= size) {
+                cout << " " << simvol << " ";
+                i1++;
+            }
+
+            cout << endl;
+            while (i2 <= size) {
+                cout << " | ";
+                i2++;
+            }
+
+            cout << endl;
+            while (i3 <= size) {
+                cout << " " << i3 << " ";
+                i3++;
+
+            }
+        }
+        else if (line == 2) {
+
+            cout << endl << "Выберите символ, из чего будет линия: ";
+            string simvol;
+            cin >> simvol;
+
+            cout << endl << "Выберите размер линии: ";
+            int size;
+            cin >> size;
+
+            int i = 1;
+            while (i <= size) {
+                cout << simvol << " -" << i << endl;
+                i++;
+            }
+        }
+        else {
+            cout << endl << "Извините, но было сказанно от 1 до 2 а вы выбрали: " << line;
+        }
+    }
+    else if (numberprogramm == 2) {
+        system("cls");
+        cout << "                   Фигура \"Квадрат\":" << endl;
+
+        cout << endl << "Выберите символ, из чего будет Квадрат: ";
+        string simvol;
+        cin >> simvol;
+
+        cout << endl << "Выберите размер Квадрата: ";
+        int size;
+        cin >> size;
+
+        int line = 0;
+        int column = 0;
+        if (size > 0) {
+            while (column < size) {
+
+                while (line < size) {
+                    cout << simvol << " ";
+                    line++;
+                }
+
+                line = 0;
+                cout << endl;
+                column++;
+            }
+
+        }
+        else {
+            cout << "Вы ввели недопустимый размер Квадрата: " << size;
+        }
+
+
+    }
+    else {
+        cout << "Такой цифры из выпадающего списка нету: " << numberprogramm;
+    }
+    return 0;
+}
+
