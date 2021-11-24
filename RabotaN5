@@ -1,0 +1,178 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    cout << "[Р] Русский" << endl;
+    cout << "[А] Английский" << endl;
+    int language;
+    cin >> language;
+    
+    switch (language)
+    {
+        case 1:
+        cout << "[1] Наруто" << endl;
+        cout << "[2] Луффи" << endl;
+        cout << "[3] Ичиго" << endl;
+        cout << "[4] Гоку" << endl;
+        cout << "[5] Сайтама" << endl;
+        cout << "[6] Изуку" << endl;
+        cout << "[7] Гон" << endl;
+        cout << "[8] Эрен" << endl;
+        cout << "[9] Танджиро" << endl;
+        cout << "[10] Ято" << endl;
+        cout << "[11] Лайт" << endl;
+        cout << "[12] Джозеф" << endl;
+        cout << "[13] Аллукард" << endl;
+        cout << "[14] Такемитчи" << endl;
+        cout << "[15] Кирито" << endl;
+        cout << "Выберите слово";
+        
+        int number1;
+        cin >> number1;
+        switch (number1)
+        {
+            case 1:
+            cout << "Наруто" << endl;
+            break;
+            
+            case 2:
+            cout << "Луффи" << endl;
+            break;
+            
+            case 3:
+            cout << "Ичиго" << endl;
+            break;
+            
+            case 4:
+            cout << "Гоку" << endl;
+            break;
+            
+            case 5:
+            cout << "Сайтама" << endl;
+            break;
+            
+            case 6:
+            cout << "Изуку" << endl;
+            break;
+            
+            case 7:
+            cout << "Гон" << endl;
+            break;
+            
+            case 8:
+            cout << "Эрен" << endl;
+            break;
+            
+            case 9:
+            cout << "Танджиро" << endl;
+            break;
+            
+            case 10:
+            cout << "Ято" << endl;
+            break;
+            
+            case 11:
+            cout << "Лайт" << endl;
+            break;
+            
+            case 12:
+            cout << "Джозеф" << endl;
+            break;
+            
+            case 13:
+            cout << "Аллукард" << endl;
+            break;
+            
+            case 14:
+            cout << "Такемитчи" << endl;
+            break;
+            
+            case 15:
+            cout << "Кирито" << endl;
+            break;
+            
+            default:
+            cout << "Так не надо" << endl;
+            break;
+        }
+            break;
+            
+            case 2:
+            cout << "[1] Naruto" << endl;
+            cout << "[2] Luffy" << endl;
+            cout << "[3] Ichigo" << endl;
+            cout << "[4] Goku" << endl;
+            cout << "[5] Saitama" << endl;
+            cout << "[6] Izuku" << endl;
+            cout << "[7] Gon" << endl;
+            cout << "[8] Eren" << endl;
+            cout << "[9] Tanjiro" << endl;
+            cout << "[10] Yato" << endl;
+            cout << "[11] Light" << endl;
+            cout << "[12] Joseph" << endl;
+            cout << "[13] Allucard" << endl;
+            cout << "[14] Takemichi" << endl;
+            cout << "[15] Kirito" << endl;
+            cout << "Choose a word" << endl;
+            
+            int main2;
+            cin >> main2;
+            switch (main2)
+        {
+            case 1:
+            cout << "Naruto" << endl;
+            break;
+            
+            case 2:
+            cout << "Luffy" << endl;
+            break;
+            
+            case 3:
+            cout << "Ichigo" << endl;
+            break;
+            
+            case 4:
+            cout << "Goku" << endl;
+            break;
+            case 5:
+            cout << "Saitama" << endl;
+            break;
+            case 6:
+            cout << "Izuku" << endl;
+            break;
+            case 7:
+            cout << "Gon" << endl;
+            break;
+            case 8:
+            cout << "Eren" << endl;
+            break;
+            case 9:
+            cout << "Tanjiro" << endl;
+            break;
+            case 10:
+            cout << "Yato" << endl;
+            break;
+            case 11:
+            cout << "Light" << endl;
+            break;
+            case 12:
+            cout << "Joseph" << endl;
+            break;
+            case 13:
+            cout << "Allucard" << endl;
+            break;
+            case 14:
+            cout << "Takemichi" << endl;
+            break;
+            case 15:
+            cout << "Kirito" << endl;
+            break;
+            default:
+            cout << "So don't" << endl;
+        }
+    }
+    return 0;
+}
