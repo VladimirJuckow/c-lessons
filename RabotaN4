@@ -1,0 +1,49 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    cout <<"[Коробочка] Калькулятор" << endl << endl;
+
+    cout <<"[+] Сложение" << endl << endl;
+    cout <<"[-] Вичитание" << endl << endl;
+    cout <<"[/] Деление" << endl << endl;
+    cout <<"[*] Умножение" << endl << endl;
+    cout <<"[!] Введите операцию: ";
+
+    char operation;
+    cin >> operation;
+
+    cout <<"[F] Введите первое число: ";
+    float number1;
+    cin >> number1;
+
+    cout << "[F] Введите второе число: ";
+    float number2;
+    cin >> number2;
+
+    if (operation == '+')
+    {
+        cout << "[F] Результат: " << number1 << "+" << number2 << "=" << number1 + number2;
+    }
+    else if (operation == '-') 
+    {
+        cout << "[F] Результат: " << number1 << "-" << number2 << "=" << number1 - number2;
+    }
+    else if (operation == '/') 
+    {
+        cout << "[F] Результат: " << number1 << "/" << number2 << "=" << number1 / number2;
+    }
+    else if (operation == '*') 
+    {
+        cout << "[F] Результат: " << number1 << "*" << number2 << "=" << number1 * number2;
+    }
+    else  
+    { 
+        cout << "Ошибка" ;
+    }
+    int Vova; cin >> Vova;
+    return 0;
+}
