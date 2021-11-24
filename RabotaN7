@@ -1,0 +1,54 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+
+    cout << "Добро пожаловать в работу по циклу while\n";
+    cout << "[F] Фигуры:\n";
+    cout << "[L] Линия\n";
+    cout << "[F] Выберите фигуру";
+    int FigureTypes;
+    cin >> FigureTypes;
+
+    system("cls");
+    
+    if (FigureTypes == 1) {
+        cout << "[Type] Типы лний\n";
+        cout << "[Gor] Горизонтальная\n";
+        cout << "[Ver] Вертикальная\n";
+        cout << "[VV Type Line] Введите тип линии";
+        int LineType;
+        cin >> LineType;
+        if (LineType == 1) {
+            cout << "Введите длину линни";
+            int LineLength;
+            cin >> LineLength;
+            cout << "Выберите текстуру";
+            char texture; 
+            cin >> texture;
+            if (LineType == 1) {
+                system("cls");
+                cout << "Результат\n";
+                int i = 0;
+                while (i < LineLength) 
+                {
+                    cout << texture;
+                    i++;
+                }
+            }
+            
+        }
+        else {
+            system("cls");
+            cout << "Такого типа нет";
+        }
+    }
+    else {
+        cout << "Такой фигуры нет";
+    }
+
+    return 0;
+}
