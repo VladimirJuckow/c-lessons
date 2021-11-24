@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+double sum(double Anime1, double CP0, char operation){
+    if (operation == '/' && CP0 == 0) return -1;
+    
+    switch (operation){
+        case '+': return Anime1 + CP0;
+        case '-': return Anime1 - CP0;
+        case '*': return Anime1 * CP0;
+        case '/': return Anime1 / CP0;
+        case 'V': return Anime1 * 15 / CP0;
+        case 'O': return Anime1 / 8 + CP0;
+        case 'B': return Anime1 + 2002 * CP0;
+        case 'A': return Anime1 - 1508 / CP0;
+        default: return -1;
+        
+    }
+}
+
+int main()
+{
+    setlocale(0, "");
+    cout<<"[∞] Первое число: ";
+    int Anime1;
+    cin >> Anime1;
+    
+    cout<<"[∞] Второе число: ";
+    int CP0;
+    cin >> CP0;
+    
+    cout<<"[∞] Действие: ";
+    char operation;
+    cin >> operation;
+    
+    cout << "[∞] Результат: " << sum(Anime1, CP0, operation) << endl;
+
+    return 0;
+}
