@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    int number;
+    cout << "Программа "Времена года << endl";
+    cout << "[1] Лето << endl";
+    cout << "[2] Осень << endl";
+    cout << "[3] Зима << endl";
+    cout << "[4] Весна << endl";
+    cout << "[-] Введите значение: ";
+    cin >> number;
+    if (number == 1) 
+    {
+        cout << "[-] Сейчас лето, надо одеться полегче и одеть кепку";
+    }
+    else if (number == 2) 
+    {
+        cout << "[-] Сейчас осень, следует одеться тепло и взять с собой зонт.";
+    }
+    else if (number == 3) 
+    {
+        cout << "[-] Сейчас зима, оденься потеплее";
+    }
+    else if (number == 4) 
+    {
+        cout << "[-] Сейчас весна, не одевайся очень легко, а то заболеешь";
+    }
+    else 
+    {
+        cout << "[-] Введите число от 1 до 4";
+    }
+    return 0;
+}
