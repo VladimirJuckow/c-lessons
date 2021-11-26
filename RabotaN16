@@ -1,0 +1,56 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    setlocale(0, "");
+
+    int figureSize;
+    char texture;
+
+    cout << "Крест\n\n";
+
+    cout << "Введите размер креста (нечетный): ";
+    cin >> figureSize;
+
+    cout << "Выберите текстуру: ";
+    cin >> texture;
+
+    system("cls");
+
+    int middle = figureSize / 2;
+
+    for (int n = middle - 1; n >= 0; n--) {
+            for (int k = 0; k < figureSize; k++) {
+                if (((k < middle - n || k > middle + n) || (k > middle - n && k < middle + n)) && n != middle) {
+                    cout << " ";
+                }
+                else {
+                    cout << texture;
+                }
+            }
+            cout << "\n";
+    }
+    
+    for (int n = 1; n < middle + 1; n++) {
+            for (int k = 0; k < figureSize; k++) {
+                if (((k < middle - n || k > middle + n) || (k > middle - n && k < middle + n)) && n != middle) {
+                    cout << " ";
+                }
+                else if (n == middle) {
+                    if (k == 0 || k == figureSize - 1) {
+                        cout << texture;
+                    }
+                    else {
+                        cout << " ";
+                    }
+                }
+                else {
+                    cout << texture;
+                }
+            }
+            cout << "\n";
+    }
+
+    return 0;
+}
