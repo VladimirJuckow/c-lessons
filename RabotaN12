@@ -1,0 +1,67 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    setlocale(0, "");
+
+    int rectangleType, rectangleWidth, rectangleHeight;
+    char texture;
+
+    cout << "Прямоугольник\n\n";
+
+    cout << "Выберите тип прямоугольника:\n";
+    cout << "[1] Незаполненный\n";
+    cout << "[2] Заполненный\n";
+    cout << "Выберите тип: ";
+    cin >> rectangleType;
+
+    if(rectangleType == 1){
+        system("cls");
+        cout << "Введите длину прямоугольника: ";
+        cin >> rectangleWidth;
+        cout << "Введите высоту прямоугольника: ";
+        cin >> rectangleHeight;
+        cout << "Выберите текстуру: ";
+        cin >> texture;
+
+        system("cls");
+
+        for (int n = 0; n < rectangleWidth; n++) {
+            for (int k = 0; k < rectangleHeight; k++)
+            {
+                cout << texture;
+            }
+            cout << "\n";
+        }
+    } else if (rectangleType == 2){
+        system("cls");
+        cout << "Введите длину прямоугольника: ";
+        cin >> rectangleWidth;
+        cout << "Введите высоту прямоугольника: ";
+        cin >> rectangleHeight;
+        cout << "Выберите текстуру: ";
+        cin >> texture;
+
+        system("cls");
+
+        for (int n = 0; n < rectangleWidth; n++) {
+            for (int k = 0; k < rectangleHeight; k++) {
+                if (n == 0 || n == rectangleWidth - 1) {
+                    cout << texture;
+                }
+                else if (k == 0 || k == rectangleHeight - 1) {
+                    cout << texture;
+                }
+                else {
+                    cout << " ";
+                }
+            }
+            cout << "\n";
+        }
+    } else {
+        cout << "Такого типа нет";
+    }
+
+    return 0;
+}
