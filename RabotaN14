@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    setlocale(0, "");
+
+    int figureSize;
+    char texture;
+
+    cout << "Решетка\n\n";
+
+    cout << "Введите размер решетки: ";
+    cin >> figureSize;
+
+    cout << "Выберите текстуру: ";
+    cin >> texture;
+
+    system("cls");
+
+    for(int i = 0; i < figureSize; i++){
+        for(int j = 0; j < figureSize; j++){
+            if(i % 2 != 0){
+                cout << texture << texture;
+                if(j == figureSize - 1){
+                    cout << texture;
+                }
+            } else {
+                cout << " " << texture;
+            }
+        }
+        cout << " \n";
+    }
+
+    return 0;
+}
