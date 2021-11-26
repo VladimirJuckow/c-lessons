@@ -1,0 +1,68 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    setlocale(0, "");
+
+    int figureType, figureSize;
+    char texture;
+
+    cout << "Треугольник\n\n";
+
+    cout << "Выберите тип треугольника:\n";
+    cout << "[1] Незаполненный\n";
+    cout << "[2] Заполненный\n";
+    cout << "Выберите тип: ";
+    cin >> figureType;
+
+    if(figureType == 1){
+        system("cls");
+        cout << "Введите длину основания: ";
+        cin >> figureSize;
+        cout << "Выберите текстуру: ";
+        cin >> texture;
+
+        int middle = figureSize / 2;
+
+        system("cls");
+
+        for (int n = 0; n < middle + 1; n++) {
+            for (int k = 0; k < figureSize; k++) {
+                if ((k < middle - n || k > middle + n) && n != middle) {
+                    cout << " ";
+                }
+                else {
+                    cout << texture;
+                }
+            }
+            cout << "\n";
+        }
+    } else if (figureType == 2){
+        system("cls");
+        cout << "Введите длину основания: ";
+        cin >> figureSize;
+        cout << "Выберите текстуру: ";
+        cin >> texture;
+
+        int middle = figureSize / 2;
+
+        system("cls");
+
+        for (int n = 0; n < middle + 1; n++) {
+            for (int k = 0; k < figureSize; k++) {
+                if (((k < middle - n || k > middle + n) || (k > middle - n && k < middle + n)) && n != middle) {
+                    cout << " ";
+                }
+                else {
+                    cout << texture;
+                }
+            }
+            cout << "\n";
+        }
+    } else {
+        cout << "Такого типа нет";
+    }
+
+    return 0;
+}
